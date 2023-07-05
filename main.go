@@ -14,6 +14,8 @@ func (p *Person) getdata() {
 func main() {
 	var name, email string
 
+	fmt.Println("Hello")
+
 	fmt.Println("Escreva seu nome: ")
 	fmt.Scanf("%s\n", &name)
 
